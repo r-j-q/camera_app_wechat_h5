@@ -1,0 +1,29 @@
+
+.featured_test_list.data-v-207eac7e{
+	 padding: 16rpx 0;
+}
+.featured_test_left.data-v-207eac7e{
+	 width: 240rpx;
+	 height: 200rpx;
+	 border-radius: 20rpx;
+	 overflow: hidden;
+}
+.featured_test_left image.data-v-207eac7e{
+ 		 width: 100%;
+ 		 height: 100%;
+}
+.featured_test_right.data-v-207eac7e{
+	 flex: 1;
+}
+.featured_test_right_img.data-v-207eac7e{
+	 width: 18rpx;
+	 height: 22rpx;
+}
+.featured_test_right_buttoms.data-v-207eac7e{
+	 padding: 20rpx 40rpx;
+	 background-color: #D4F3F8 ;
+	 border-radius: 24rpx;
+	 color: #3FB4C9 ;
+	 font-size: 24rpx;
+}
+

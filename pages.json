@@ -1,0 +1,339 @@
+{
+	"pages": [
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+
+		// 		"enablePullDownRefresh": false,
+		// 		//#ifdef MP-WEIXIN
+		// 		"navigationStyle": "custom",
+		// 		"navigationBarTitleText": "量表",
+		// 		//#endif
+		// 		"align":"center",
+		// 		"onReachBottomDistance": 200
+		// 	}
+		// },
+
+
+		{
+			"path": "pages/tab/scaleTest/index",
+			"style": {
+
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom",
+				//#ifdef MP-WEIXIN
+
+				"navigationBarTitleText": "量表",
+				//#endif
+				"align": "center",
+				"onReachBottomDistance": 200
+			}
+		},
+		{
+			"path": "pages/tab/cognitiveTask/index",
+			"style": {
+				"enablePullDownRefresh": false,
+				//#ifdef MP-MP-WEIXIN
+				"navigationBarTitleText": "认知任务",
+				//#endif
+				//#ifdef H5
+				"navigationStyle": "custom",
+				//#endif
+				"navigationBarTextStyle": "black"
+			}
+		},
+
+
+		{
+			"path": "pages/user/login",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/user/phoneLogin",
+			"style": {
+				//#ifdef MP-WEIXIN
+				"navigationBarTitleText": "手机号登录",
+				//#endif
+				//#ifdef H5
+				"navigationStyle": "custom",
+				//#endif
+				"enablePullDownRefresh": false
+
+			}
+		},
+		{
+			"path": "pages/user/register",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "注册"
+			}
+		},
+
+
+		{
+			"path": "pages/tab/mine/index",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationBarTitleText": "个人中心",
+				"navigationBarTextStyle": "black"
+			}
+		}
+	],
+	"subPackages": [{
+			"root": "cognitiveTasksPage",
+			"pages": [{
+					"path": "ShapeIntuition",
+					"style": {
+						"navigationBarTitleText": "形状知觉测试(自上而下)",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "ETBexperiment_new",
+					"style": {
+						"navigationBarTitleText": "人脸表情识别",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "ruiWenTask",
+					"style": {
+						"navigationBarTitleText": "认知任务",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "continueAdditionTask",
+					"style": {
+						"navigationBarTitleText": "认知任务",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "CoginitiveTask",
+					"style": {
+						"navigationBarTitleText": "认知任务",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "rememberAbilityTask",
+					"style": {
+						"navigationBarTitleText": "认知任务",
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "riskPolicy",
+					"style": {
+						"navigationBarTitleText": "风险决策倾向测试",
+						"enablePullDownRefresh": false
+					}
+				},
+				  {
+					"path": "DigitalMemoryTest",
+					"style": {
+						"navigationBarTitleText": "认知任务",
+						"enablePullDownRefresh": false
+					}
+				}
+			] 
+		},
+		{
+			"root": "cognitiveTasksTestResult",
+			"pages": [{
+					"path": "testResultNew",
+					"style": {
+						"navigationBarTitleText": "认知任务",
+						//#ifdef MP-WEIXIN
+						"navigationStyle": "custom",
+						//#endif
+						"enablePullDownRefresh": false
+					}
+				}, {
+					"path": "testResult",
+					"style": {
+						"navigationBarTitleText": "认知任务",
+						//#ifdef MP-WEIXIN
+						"navigationStyle": "custom",
+						//#endif
+						"enablePullDownRefresh": false
+					}
+				}
+
+			]
+		},
+
+		{
+			"root": "scalePage",
+			"pages": [{
+					"path": "testRecord/index",
+					"style": {
+						"navigationBarTitleText": "测试记录",
+						//#ifndef MP-WEIXIN
+						"navigationStyle": "custom",
+						//#endif
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pay/index",
+					"style": {
+						"navigationBarTitleText": "支付",
+						//#ifndef MP-WEIXIN
+						"navigationStyle": "custom",
+						//#endif
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "paymentStatus/index",
+					"style": {
+						"navigationBarTitleText": "支付结果",
+						//#ifndef MP-WEIXIN
+						"navigationStyle": "custom",
+						//#endif
+						"enablePullDownRefresh": false
+					}
+				},
+
+
+				{
+					"path": "searchRecord/index",
+					"style": {
+						"navigationBarTitleText": "量表搜索",
+						//#ifdef MP-WEIXIN
+						"navigationStyle": "custom",
+						//#endif
+						"enablePullDownRefresh": false
+					}
+				},
+
+				{
+					"path": "beginTest/index",
+					"style": {
+						"navigationBarTitleText": "心理测试",
+
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "beginTestCognitiveTask/index",
+					"style": {
+						"navigationBarTitleText": "心理测试",
+
+						"enablePullDownRefresh": false
+					}
+				},
+
+				{
+					"path": "sideCategory/index",
+					"style": {
+						"navigationBarTitleText": "",
+						//#ifdef MP-WEIXIN
+						"navigationStyle": "custom",
+						//#endif 
+						"onReachBottomDistance": 200
+					}
+				}
+
+
+
+			]
+		},
+
+
+		{
+			"root": "scaleTestResults",
+			"pages": [{
+					"path": "testResults/index",
+					"style": {
+						"navigationBarTitleText": "测试结果",
+						"navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "profile/index",
+					"style": {
+						"navigationBarTitleText": "用户注册协议",
+						// "navigationStyle": "custom",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+
+
+		{
+			"root": "examWidght",
+			"pages": [{
+				"path": "examWidght/index",
+				"style": {
+					"navigationBarTitleText": "量表",
+					"enablePullDownRefresh": false
+				}
+			}]
+		},
+		{
+			"root": "cognitiveTask",
+			"pages": [{
+				"path": "cognitiveTask/index",
+				"style": {
+					//#ifdef MP-WEIXIN
+					"navigationBarTitleText": "认知任务",
+					//#endif 
+					"enablePullDownRefresh": false
+				}
+			}]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "心灵相机",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F5F5F5",
+		"onReachBottomDistance": 10,
+		"rpxCalcMaxDeviceWidth": 1024,
+		"rpxCalcBaseDeviceWidth": 375,
+		"rpxCalcIncludeWidth": 750,
+		"usingComponents": {}
+
+	},
+	"tabBar": {
+		"color": "#776f86",
+		"selectedColor": "#3FB4C9",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/tab/scaleTest/index",
+				"text": "量表测试",
+				"iconPath": "static/images/tab.png",
+				"selectedIconPath": "static/images/tabActive1.png"
+			},
+			{
+				"pagePath": "pages/tab/cognitiveTask/index",
+				"text": "认知任务",
+				"iconPath": "static/images/tab2.png",
+				"selectedIconPath": "static/images/tabActive2.png"
+			},
+
+			{
+				"pagePath": "pages/tab/mine/index",
+				"text": "个人中心",
+				"iconPath": "static/images/mine.png",
+				"selectedIconPath": "static/images/mineActive.png"
+			}
+
+		]
+	},
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"condition": {
+		"current": 0,
+		"list": [{
+			"name": "",
+			"path": "",
+			"query": ""
+		}]
+	}
+}

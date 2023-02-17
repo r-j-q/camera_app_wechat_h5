@@ -1,0 +1,1 @@
+<view class="content_style data-v-229a66b4"><camera-content vue-id="180b6407-1" categoryNameLists="{{categoryNameList}}" class="data-v-229a66b4" bind:__l="__l"></camera-content><u-loadmore vue-id="180b6407-2" status="{{status}}" loading-text="{{loadingText}}" loadmore-text="{{loadmoreText}}" nomore-text="{{nomoreText}}" class="data-v-229a66b4" bind:__l="__l"></u-loadmore></view>

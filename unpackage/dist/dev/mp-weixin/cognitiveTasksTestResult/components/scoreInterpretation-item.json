@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "lei-da-cognitive-chart": "/cognitiveTasksTestResult/components/leiDaCognitiveChart"
+  }
+}

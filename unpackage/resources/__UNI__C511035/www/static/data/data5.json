@@ -1,0 +1,6 @@
+{"net":[{"value":1,"label":"网费"},{"value":2,"label":"网电费"},{"value":3,"label":"气网费","disabled": true}],
+"water":[{"value":4,"label":"水费"},{"value":5,"label":"水电费"},{"value":6,"label":"水气费","disabled": true}],
+"electric":[{"value":7,"label":"电费"},{"value":8,"label":"电电费"},{"value":9,"label":"电电电费","disabled": true}]
+
+
+}

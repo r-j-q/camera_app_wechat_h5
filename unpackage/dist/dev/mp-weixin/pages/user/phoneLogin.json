@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "手机号登录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "comp-input": "/components/compInput/index",
+    "code-time": "/components/timeTag/codeTime"
+  }
+}

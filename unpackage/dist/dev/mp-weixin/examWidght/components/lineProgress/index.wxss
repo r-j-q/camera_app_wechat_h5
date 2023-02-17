@@ -1,0 +1,10 @@
+.line-progress-w.data-v-50cc2b7c {
+  width: 94%;
+  margin: 0 auto;
+}
+.row-center.data-v-50cc2b7c {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+

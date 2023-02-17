@@ -1,0 +1,119 @@
+  .explan {
+      box-sizing: border-box;
+      padding: 15px 15px 0;
+    }
+    .explan h1 {
+      font-size: 16px;
+      color: #222222;
+      text-align: center;
+    }
+    .explan p {
+      font-size: 14px;
+      color: #666666;
+      line-height: 26px;
+      text-indent: 15px;
+      margin-bottom: 20px;
+    }
+    .activeTask {
+      box-sizing: border-box;
+      padding-top: 46px; 
+      background-size: cover;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.24);
+    }
+    
+    .steering {
+      width: 50%;
+      position: absolute;
+      bottom: 20%;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .steering .left {
+      width: 60px;
+      height: 60px; 
+    }
+    
+    .steering .right {
+      width: 60px;
+      height: 60px; 
+      margin-left: 15px;
+    }
+	.shapeImgWidth{
+		width: 90%;
+		height: 600rpx;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+    .shapeImg {
+      width: 100%; 
+      height: 600rpx; 
+       
+    }
+    .progress-content {
+      position: absolute;
+      width: 100%;
+      height: 20px;
+      left: 0;
+      top: 60px;
+      box-sizing: border-box;
+      padding: 4px 10px;
+    }
+    .look-point {
+      position: absolute;
+      width: 100%;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 10;
+      text-align: center;
+    }
+    .look-point img {
+      width: 50px;
+      height: 50px;
+    }
+    .timingBox {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 18px;
+      text-align: center;
+      line-height: 50px;
+      margin: 0 auto;
+      z-index: 10;
+    }
+    .btn-content {
+      position: absolute;
+      width: 100%;
+      left: 50%;
+      bottom: 10%;
+      transform: translate(-50%, 0);
+      text-align: center;
+      z-index: 10;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 0 5px;
+    }
+    .btn-content .btn-item {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    .btn-content .btn-item /deep/.van-button {
+      margin: 35px 0;
+    }

@@ -1,0 +1,26 @@
+
+.bacF.data-v-2727741c {
+		margin: 0 auto;
+		width: 714rpx;
+		padding: 40rpx 10px;
+		background-color: #fff
+}
+.mrLeft.data-v-2727741c {
+		width: 40rpx;
+}
+.height_.data-v-2727741c {
+		height: 100vh;
+		overflow: hidden;
+		overflow-y: scroll;
+}
+.pa.data-v-2727741c{
+	padding: 10px 0 10px 10px;
+}
+
+	/* page{
+			height: 100vh;
+			overflow: hidden; 
+			 overflow-y: scroll;
+			background-color: #F5F6FA;
+		} */
+

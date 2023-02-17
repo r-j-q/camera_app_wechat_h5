@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "测试记录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "u-row": "/node-modules/uview-ui/components/u-row/u-row",
+    "u-col": "/node-modules/uview-ui/components/u-col/u-col",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "featured-test-list-over": "/scalePage/components/featuredTestListOver",
+    "no-data": "/components/noData/index"
+  }
+}

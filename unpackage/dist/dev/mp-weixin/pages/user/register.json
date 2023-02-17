@@ -1,0 +1,12 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "注册",
+  "usingComponents": {
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "u-picker": "/node-modules/uview-ui/components/u-picker/u-picker",
+    "u-datetime-picker": "/node-modules/uview-ui/components/u-datetime-picker/u-datetime-picker",
+    "comp-input": "/components/compInput/index",
+    "rigester-list": "/components/compInput/rigesterList",
+    "code-time": "/components/timeTag/codeTime"
+  }
+}

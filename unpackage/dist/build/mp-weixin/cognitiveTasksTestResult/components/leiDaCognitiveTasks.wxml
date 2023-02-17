@@ -1,0 +1,1 @@
+<view class="container"><echarts class="container100 vue-ref" vue-id="13c5c7a0-1" option="{{option}}" canvasId="echartsT" data-ref="echarts" bind:__l="__l"></echarts></view>

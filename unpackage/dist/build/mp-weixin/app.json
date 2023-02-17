@@ -1,0 +1,100 @@
+{
+  "pages": [
+    "pages/tab/scaleTest/index",
+    "pages/tab/cognitiveTask/index",
+    "pages/user/login",
+    "pages/user/phoneLogin",
+    "pages/user/register",
+    "pages/tab/mine/index"
+  ],
+  "subPackages": [
+    {
+      "root": "cognitiveTasksPage",
+      "pages": [
+        "ShapeIntuition",
+        "ETBexperiment_new",
+        "ruiWenTask",
+        "continueAdditionTask"
+      ]
+    },
+    {
+      "root": "cognitiveTasksTestResult",
+      "pages": [
+        "testResultNew",
+        "testResult"
+      ]
+    },
+    {
+      "root": "scalePage",
+      "pages": [
+        "testRecord/index",
+        "pay/index",
+        "paymentStatus/index",
+        "searchRecord/index",
+        "beginTest/index",
+        "beginTestCognitiveTask/index",
+        "sideCategory/index"
+      ]
+    },
+    {
+      "root": "scaleTestResults",
+      "pages": [
+        "testResults/index",
+        "profile/index"
+      ]
+    },
+    {
+      "root": "examWidght",
+      "pages": [
+        "examWidght/index"
+      ]
+    },
+    {
+      "root": "cognitiveTask",
+      "pages": [
+        "cognitiveTask/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "心灵相机",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#F5F5F5",
+    "onReachBottomDistance": 10,
+    "rpxCalcMaxDeviceWidth": 1024,
+    "rpxCalcBaseDeviceWidth": 375,
+    "rpxCalcIncludeWidth": 750
+  },
+  "tabBar": {
+    "color": "#776f86",
+    "selectedColor": "#3FB4C9",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/tab/scaleTest/index",
+        "text": "量表测试",
+        "iconPath": "static/images/tab.png",
+        "selectedIconPath": "static/images/tabActive1.png"
+      },
+      {
+        "pagePath": "pages/tab/cognitiveTask/index",
+        "text": "认知任务",
+        "iconPath": "static/images/tab2.png",
+        "selectedIconPath": "static/images/tabActive2.png"
+      },
+      {
+        "pagePath": "pages/tab/mine/index",
+        "text": "个人中心",
+        "iconPath": "static/images/mine.png",
+        "selectedIconPath": "static/images/mineActive.png"
+      }
+    ]
+  },
+  "permission": {},
+  "uniStatistics": {
+    "enable": false
+  },
+  "usingComponents": {}
+}

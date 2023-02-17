@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "测试结果",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-row": "/node-modules/uview-ui/components/u-row/u-row",
+    "u-col": "/node-modules/uview-ui/components/u-col/u-col",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "lei-da": "/components/mpvueEcharts/leiDa",
+    "un-table": "/scaleTestResults/components/unTable"
+  }
+}

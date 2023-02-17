@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "量表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "exam-widght": "/examWidght/components/Li-ExamWidght/Li-ExamWidght",
+    "line-progress": "/examWidght/components/lineProgress/index"
+  }
+}

@@ -1,0 +1,84 @@
+
+.uni-popup-style {
+		padding: 100rpx 40rpx;
+		background-color: #fff;
+		border-top-left-radius: 20rpx;
+		border-top-right-radius: 20rpx;
+}
+.content_app_f8 {
+		border: none;
+}
+.bg_img {
+
+		background-size: 100% 100%;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+}
+.loginContent {
+		padding: 20px;
+		padding-top: 200rpx;
+}
+.loginTop {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-top: 40px;
+		margin-bottom: 20px
+}
+.loginButtom {
+		margin-top: 40px;
+		font-size: 36rpx
+}
+.loginButtom button {
+		border-radius: 100rpx;
+}
+.loginImg {
+		width: 70%;
+		height: 140rpx;
+}
+.loginContent0 {
+		font-size: 38rpx;
+		color: #423831;
+		font-weight: 700;
+		margin-bottom: 20rpx
+}
+.loginContent1 {
+		font-size: 30rpx;
+		color: #a2a2a2;
+}
+ .u-button--disabled {
+		opacity: 1 !important;
+}
+.yijian{
+	   color: #8a8a8a;
+	   font-size: 12px;
+}
+.loginAccount {
+		margin-top: 10px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+}
+.margin_button_top_40 {
+		margin: 80rpx 0;
+}
+.textLine {
+		text-decoration: underline;
+}
+.wx_login_style {
+		width: 164rpx;
+		height: 120rpx;
+}
+.minHeight100{
+		position: relative;
+}
+.positionY{
+		    position: absolute;
+		    bottom: 100rpx;
+		    left: 0;
+		    right: 0;
+}
+

@@ -1,0 +1,82 @@
+
+.explan.data-v-3c48a804 {
+        box-sizing: border-box;
+        padding: 15px 15px 0;
+}
+.explan ._h1.data-v-3c48a804 {
+        font-size: 16px;
+        color: #222222;
+        text-align: center;
+}
+.explan ._p.data-v-3c48a804 {
+        font-size: 14px;
+        color: #666666;
+        line-height: 26px;
+        text-indent: 15px;
+        margin-bottom: 20px;
+}
+.activeTask.data-v-3c48a804 {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding-top: 46px;
+        margin: 0 auto;
+			 
+        /* background: url("../../assets/congnitiveAblitity/rememberAbilityTask.png") no-repeat center; */
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+}
+.progress-content.data-v-3c48a804 {
+        position: absolute;
+        width: 100%;
+        height: 20px;
+        left: 0;
+        top: 60px;
+        box-sizing: border-box;
+        padding: 4px 10px;
+}
+.txt-center.data-v-3c48a804 {
+        text-align: center;
+}
+.test-title.data-v-3c48a804 {
+        box-sizing: border-box;
+        padding: 35px 0;
+        color: rgba(240, 248, 255, 1)
+}
+.letterCss.data-v-3c48a804 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        background-size: cover;
+        font-size: 100px;
+        font-family: PingFang SC;
+        font-weight: 600;
+        line-height: 200px;
+        color: #333333;
+        text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.76);
+        opacity: 1;
+}
+.scaleButton.data-v-3c48a804 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-size: cover;
+}
+.focus.data-v-3c48a804 {
+        width: 71px;
+        height: 71px;
+	 
+        /* background: url("../../assets/congnitiveAblitity/whiteFlag-new.png") no-repeat center; */
+        background-size: cover;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+}
+

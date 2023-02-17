@@ -1,0 +1,22 @@
+{"net":[{"id":40,"fid":68,"type":0,"billerTag":"ANGELES_ELECTRIC","name":"Angeles Electric Company","desc":"0","admin_sub_title":"","operator":1,"param":"[{\"note\":\"ATM Reference No.\",\"paramName\":\"AccountNo\"},{\"note\":\"Due Date (mmddyyyy)\",\"paramName\":\"Identifier\"}]","sort":0,"is_show":1,"options":{"value":1,"label":"公司A"}},
+	{"id":39,"fid":69,"type":0,"billerTag":"ANGELES_ELECTRIC","name":"Angeles Electric Company2","desc":"0","admin_sub_title":"","operator":1,"param":"[{\"note\":\"ATM Reference No.\",\"paramName\":\"AccountNo\"},{\"note\":\"Due Date (mmddyyyy)\",\"paramName\":\"Identifier\"}]","sort":0,"is_show":1,
+		"options":{"value":2,"label":"公司B"}},
+		{"id":38,"fid":70,"type":0,"billerTag":"ANGELES_ELECTRIC","name":"Angeles Electric Company3","desc":"0","admin_sub_title":"","operator":1,"param":"[{\"note\":\"ATM Reference No.\",\"paramName\":\"AccountNo\"},{\"note\":\"Due Date (mmddyyyy)\",\"paramName\":\"Identifier\"}]","sort":0,"is_show":1,
+			"options":{"value":3,"label":"公司c"}}
+
+		],
+"water":[{"id":40,"fid":68,"type":0,"billerTag":"ANGELES_ELECTRIC","name":"Angeles Electric Company","desc":"0","admin_sub_title":"","operator":1,"param":"[{\"note\":\"ATM Reference No.\",\"paramName\":\"AccountNo\"},{\"note\":\"Due Date (mmddyyyy)\",\"paramName\":\"Identifier\"}]","sort":0,"is_show":1,"options":{"value":4,"label":"公司A"}},
+	{"id":39,"fid":69,"type":0,"billerTag":"ANGELES_ELECTRIC","name":"Angeles Electric Company2","desc":"0","admin_sub_title":"","operator":1,"param":"[{\"note\":\"ATM Reference No.\",\"paramName\":\"AccountNo\"},{\"note\":\"Due Date (mmddyyyy)\",\"paramName\":\"Identifier\"}]","sort":0,"is_show":1,"options":{"value":5,"label":"公司B"}},
+		{"id":38,"fid":70,"type":0,"billerTag":"ANGELES_ELECTRIC","name":"Angeles Electric Company3","desc":"0","admin_sub_title":"","operator":1,"param":"[{\"note\":\"ATM Reference No.\",\"paramName\":\"AccountNo\"},{\"note\":\"Due Date (mmddyyyy)\",\"paramName\":\"Identifier\"}]","sort":0,"is_show":1,"options":{"value":6,"label":"公司c"}}
+
+		],
+"electric":[{"id":40,"fid":68,"type":0,"billerTag":"ANGELES_ELECTRIC","name":"Angeles Electric Company","desc":"0","admin_sub_title":"","operator":1,"param":"[{\"note\":\"ATM Reference No.\",\"paramName\":\"AccountNo\"},{\"note\":\"Due Date (mmddyyyy)\",\"paramName\":\"Identifier\"}]","sort":0,"is_show":1,"options":{"value":7,"label":"公司A"}},
+	{"id":39,"fid":69,"type":0,"billerTag":"ANGELES_ELECTRIC","name":"Angeles Electric Company2","desc":"0","admin_sub_title":"","operator":1,"param":"[{\"note\":\"ATM Reference No.\",\"paramName\":\"AccountNo\"},{\"note\":\"Due Date (mmddyyyy)\",\"paramName\":\"Identifier\"}]","sort":0,"is_show":1,"options":{"value":8,"label":"公司B"}},
+		{"id":38,"fid":70,"type":0,"billerTag":"ANGELES_ELECTRIC","name":"Angeles Electric Company3","desc":"0","admin_sub_title":"","operator":1,"param":"[{\"note\":\"ATM Reference No.\",\"paramName\":\"AccountNo\"},{\"note\":\"Due Date (mmddyyyy)\",\"paramName\":\"Identifier\"}]","sort":0,"is_show":1,"options":{"value":9,"label":"公司c"}}
+
+		]
+
+
+
+
+}

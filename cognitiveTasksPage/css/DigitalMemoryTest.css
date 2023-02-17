@@ -1,0 +1,192 @@
+.memory-warp {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding-top: 46px;
+        margin: 0 auto;
+        /* background: url(../../assets/congnitiveAblitity/add-bg.png) no-repeat center; */
+        background-size: cover;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        /*overflow-y: scroll;*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+	.startTest{
+		    width: 350rpx;
+		    border-radius: 100rpx;
+		    height: 80rpx;
+		    line-height: 80rpx;
+		    font-size: 14px;
+		    text-align: center;
+		    margin: 0 auto;
+		    margin-top: 130px;
+	}
+    .modelName {
+        position: absolute;
+        left: 5px;
+        top: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        color: #000;
+        z-index: 10;
+    }
+    .tip-title {
+        position: absolute;
+        left: 50%;
+		/* #ifdef MP-WEIXIN */
+		     top: 30px;
+		/* #endif */
+    /* #ifdef H5 */
+         top: 50px;
+    /* #endif */
+        transform: translate(-50%);
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        z-index: 10;
+    }
+    .digital-content {
+        /*width: 1200px;*/
+        width: 100%;
+        height: 600px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .digital-content p {
+        width: 100%;
+        height: 300px;
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 20px;
+        text-align: center;
+        line-height: 300px;
+        color: #fff;
+        border-radius: 20px;
+        background-color: #000;
+        opacity: 0.7;
+    }
+    .digital-input-content {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .add-mid {
+        /* background: url(../../assets/congnitiveAblitity/add-mid.png) no-repeat center; */
+        background-size: 100% 100%;
+        /*width: 400px;*/
+        width: 750upx;
+		margin: 0 auto;
+        height: 450px;
+        box-sizing: border-box;
+        padding: 56upx;
+		border-radius: 30upx;
+    }
+    .digital-show {
+        height: 80px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        letter-spacing: 8px;
+        /*background-color: #57acbb;*/
+        line-height: 80px;
+        background-color: black;
+        color: #fff;
+        border-radius: 10px;
+        overflow: auto;
+    }
+    .num-btn {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 0;
+    }
+     .u-button {
+        width: 200upx;
+        /*padding: 10px 10px;*/
+        font-size: 14px;
+        /* border-radius: 10px; */
+        font-weight: bold; 
+		/* margin: 0 4px; */
+    }
+    .timing-content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+        font-size: 18px;
+        text-align: center;
+        line-height: 100px;
+    }
+    .contral_group {
+        position: fixed;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        font-size: 16px;
+        width: 60%;
+        justify-content: center;
+    }
+    .cover {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: auto;
+        z-index: 99;
+        background: #ddd;
+        opacity: 0.2;
+    }
+    .btn_begin {
+        position: fixed;
+        bottom: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+    }
+    .endBtn {
+        position: fixed;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        color: #fff;
+        background-color: #409eff;
+        border-color: #409eff;
+		width: 30%;
+    }
+    .endBtn:active {
+        background: #3a8ee6;
+        border-color: #3a8ee6;
+        color: #fff;
+    }
+    .endBtn:hover {
+        background: #3a8ee6;
+        border-color: #3a8ee6;
+        color: #fff;
+    }
+	.circleLi{
+		width: 50%;
+		height: 80upx;
+		line-height: 80upx;
+		text-align: center;
+		border-radius: 40upx;
+		margin: 0 auto;
+		background-color: #3FB4C9;
+		color:#fff; 
+		margin-top: 40upx;
+	 
+		 
+	}

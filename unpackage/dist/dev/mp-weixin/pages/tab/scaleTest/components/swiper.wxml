@@ -1,0 +1,1 @@
+<view class="marTop20  borderReduils10 paddingLeftRight20 data-v-1cd0ac5b"><u-swiper class="borderReduils10 data-v-1cd0ac5b" vue-id="7d45600b-1" list="{{swiperList}}" indicator="{{true}}" indicatorMode="line" circular="{{true}}" height="150px" data-event-opts="{{[['^click',[['handleClick']]]]}}" bind:click="__e" bind:__l="__l"></u-swiper></view>

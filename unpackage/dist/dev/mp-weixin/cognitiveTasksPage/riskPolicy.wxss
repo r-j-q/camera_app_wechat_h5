@@ -1,0 +1,65 @@
+
+.game_content.data-v-0ac2ab62 {
+	background-size: cover;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.echart.data-v-0ac2ab62 {
+	margin-left: 110px;
+	text-align: center;
+}
+.small_content.data-v-0ac2ab62 {
+	width: 90vw;
+	height: 80vh;
+	margin: 5vh auto;
+	background: url('https://test.jue-ming.com:8849/api/show?filePath=./images/a8ff2581-d1af-4275-8f26-3c835755dea1.png') no-repeat center;
+	background-size: 100% 100%;
+	opacity: 0.7;
+	border-radius: 12px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.text1.data-v-0ac2ab62 {
+	height: 28px;
+	font-size: 18px;
+	font-family: PingFang SC;
+	line-height: 28px;
+	color: #000000;
+	opacity: 1;
+}
+.button.data-v-0ac2ab62 {
+	width: 70px;
+	line-height: 40px;
+	opacity: 1;
+	background: #07c160;
+	color: #ffffff;
+}
+.balloon.data-v-0ac2ab62 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.balloon image.data-v-0ac2ab62 {
+	display: block;
+	width: 198rpx;
+	height: 232rpx;
+}
+.game_info.data-v-0ac2ab62 {
+	width: 100%;
+	text-align: center;
+}
+.result.data-v-0ac2ab62 {
+	padding-top: 20px;
+}
+.result ._p.data-v-0ac2ab62 {
+	font-size: 24px;
+	color: #222222;
+	text-align: center;
+	line-height: 100px;
+}
+

@@ -1,0 +1,36 @@
+
+.mine_content.data-v-60175389 {
+	width: 100%;
+	background-color: #f8f6f9;
+}
+.opendataimg.data-v-60175389 {
+	width: 200rpx;
+	height: 200rpx;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.uni-popup-style.data-v-60175389 {
+	padding: 50rpx 40rpx;
+	background-color: #fff;
+	border-top-left-radius: 20rpx;
+	border-top-right-radius: 20rpx;
+}
+.mine_content_images.data-v-60175389 {
+	height: 424rpx;
+	width: 100%;
+	/* background-image: url("@/static/images/camera/minebg.png") */
+}
+.mine_content_list.data-v-60175389 {}
+.mine_content_list image.data-v-60175389 {
+	width: 60px;
+	height: 60px;
+}
+.avatarUrl_style.data-v-60175389 {
+	width: 160rpx;
+	height: 160rpx;
+	border-radius: 80rpx;
+}
+.uni-list-item.data-v-60175389 {
+	height: 124rpx;
+}
+

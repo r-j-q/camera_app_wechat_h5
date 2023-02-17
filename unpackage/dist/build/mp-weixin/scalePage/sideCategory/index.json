@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "search-header": "/components/searchHeader/index",
+    "side-category": "/components/mochen-side-category/mochen-side-category",
+    "featured-test-list-over-category": "/scalePage/components/featuredTestListOverCategory",
+    "no-data": "/components/noData/index"
+  }
+}

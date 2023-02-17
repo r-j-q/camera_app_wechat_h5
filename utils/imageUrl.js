@@ -1,0 +1,118 @@
+import {
+	photoUrl
+} from "@/common/config.js"
+const photoUrls = `${photoUrl}api/show?filePath=./images`
+export const urls = {
+	 
+	one0Jpg0: `${photoUrls}/0d6a8a05-6211-4363-8f22-5882b92abe5f.jpg`,
+	one0Jpg1: `${photoUrls}/26e23acf-7849-49bb-9280-6282115d7e99.jpg`,
+	one0Jpg2: `${photoUrls}/7e89bb6f-2756-45c0-912a-03588cd1ceff.jpg`,
+	one0Jpg3: `${photoUrls}/e0382926-6b07-4824-9196-4debc73ca14f.jpg`,
+	one0Jpg4: `${photoUrls}/11457c8e-258a-4921-9d68-b4c74d9ca287.jpg`,
+	one0Jpg5: `${photoUrls}/f68aac0d-fdab-4c96-9a51-4761997a6552.jpg`,
+	one0Jpg6: `${photoUrls}/d30d947c-a150-45bf-9619-1ddd472dd740.jpg`,
+	one0Jpg7: `${photoUrls}/9e7f316d-c8eb-4887-816d-1acc7a58a2fc.jpg`,
+	one0Jpg8: `${photoUrls}/84595da6-29ac-4b27-9de6-c7a86bbd53a4.jpg`,
+	one0Jpg9: `${photoUrls}/6d17f368-4bc1-4726-937e-d8e7580b1009.jpg`,
+	one0Jpg10: `${photoUrls}/8230489e-f60a-42f3-aab0-5a0fddc1afbb.jpg`,
+	one0Jpg11: `${photoUrls}/87bbafcd-16c6-435c-b2ad-0e34999ff19f.jpg`,
+	one0Jpg12: `${photoUrls}/045bcb43-de19-4a78-bd61-c16f1e43516f.jpg`,
+	one0Jpg13: `${photoUrls}/eed93085-c9b0-4b2d-a5e0-7f10d1c44636.jpg`,
+	one0Jpg14: `${photoUrls}/bd741ccf-8aa0-4120-ae04-379454e68d13.jpg`,
+	one0Jpg15: `${photoUrls}/d3509009-02b9-4880-b8e6-6a524c5a6fac.jpg`,
+	one0Jpg16: `${photoUrls}/a92b0b2e-e747-49f1-84c1-bfbb7208aca3.jpg`,
+	one0Jpg17: `${photoUrls}/7a4e6738-fbd1-4c98-ae9d-6f04a86192a6.jpg`,
+	one0Jpg18: `${photoUrls}/d31bc4e0-1958-4bf0-8bd4-432c15f5e832.jpg`,
+	one0Jpg19: `${photoUrls}/c04b40d7-42ea-4900-b12f-d16db24f378d.jpg`,
+	birth_login: `${photoUrls}/f5b6c368-97f8-4e66-b6d7-0dc963521361.png`,
+	bottom: `${photoUrls}/09718756-59c3-43f3-acd9-fdfdda0618b8.png`,
+	code: `${photoUrls}/afc9bfef-2e71-4553-9577-a7415628e05a.png`,
+	code: `${photoUrls}/afc9bfef-2e71-4553-9577-a7415628e05a.png`,
+	cs_jl_pic: `${photoUrls}/58637d91-dbd0-435d-aa8b-28b32e62f9b0.png`,
+	icon_set: `${photoUrls}/70e33bf3-7875-469b-9ed8-7c9c00af6719.png`,
+	left: `${photoUrls}/09f7fc35-9c82-4749-982e-c6d38aca0da1.png`,
+	login_bg: `${photoUrls}/ae390f1e-7107-4240-9e05-28bfce33d23a.png`,
+	logo_01: `${photoUrls}/2e2f42a4-30f5-45fc-9fc5-f02a1474d9ff.png`,
+	newspaper_o: `${photoUrls}/dcec2c2d-26c0-4d55-a66a-15ebc5158938.png`,
+	newspaper: `${photoUrls}/6e5fec7d-7273-460b-84bb-aa820188b1a5.png`,
+	orders_o: `${photoUrls}/ec2c91e7-3fcb-4b53-b0d6-2ebbace0d53f.png`,
+	orders: `${photoUrls}/72fe1508-2626-4f97-8359-157cc551d844.png`,
+	password_login: `${photoUrls}/f37aa3f4-61bd-434f-93ec-ef506fce5d9b.png`,
+	password: `${photoUrls}/a011377e-eb90-4546-a798-24d9da134ef0.png`,
+	persion: `${photoUrls}/435be20e-fc2a-4cf8-955a-065e5232d265.png`,
+	right: `${photoUrls}/a14b09f8-0e7e-4b88-bc8f-2247fe51d647.png`,
+	test_records_bg: `${photoUrls}/406185ff-89a6-4fcf-938a-c6168fd9b26f.png`,
+	test_result_title: `${photoUrls}/0c6fd0d4-59ad-4065-995e-ff811614b7b6.png`,
+	test_bg_bottom: `${photoUrls}/690a1e06-b3c0-40a4-b36e-1feb4c5b9528.png`,
+	test_bg_top: `${photoUrls}/aaddb67c-d14f-4c0c-a0de-1626fc1cf6d5.png`,
+	top: `${photoUrls}/57d68dd6-abe0-474c-b807-a6054ca97057.png`,
+	user_login: `${photoUrls}/25b893fe-867e-42a4-a88d-921bb782104c.png`,
+	user_o: `${photoUrls}/929854d0-70e3-4a0e-a467-c9dc6bfd05e3.png`,
+	user: `${photoUrls}/8b6035bf-4ce5-4469-b4b4-88e8c7eb4351.png`,
+	username: `${photoUrls}/48eaed4a-f30e-49ba-8803-2e35abda8d93.png`,
+	xing1: `${photoUrls}/7f8cfc65-3f85-42e7-8bbc-964658f934a4.png`,
+	xing2: `${photoUrls}/b2aa4200-c47d-4a6c-9510-5a62158aa4fc.png`,
+	xing3: `${photoUrls}/cbd48c37-4082-44db-a8b1-49b5066f7bbb.png`,
+	xb_login: `${photoUrls}/a2e353a6-1d9d-472a-bc59-606179e29dea.png`,
+	xm_login: `${photoUrls}/ec2cfb07-019a-44a6-aea9-2290bb6fe790.png`,
+	yzm_login: `${photoUrls}/a4c1bf19-ba2f-4e43-99ad-40e89847926a.png`,
+	zy__login: `${photoUrls}/42e414bb-8246-4377-8a90-56462f98e7f7.png`,
+	banner_0: `${photoUrls}/7524ac27-aedf-47e3-8702-185aa30f825e.png`,
+	banner_1: `${photoUrls}/a7dfb75e-e423-43b6-bbca-974e28f968ce.png`,
+	banner_2: `${photoUrls}/5782c98b-3489-4999-8936-35aebb08c50d.png`,
+	grid0: `${photoUrls}/f90e4345-d800-4e9a-a77b-489971e21c64.png`,
+	grid1: `${photoUrls}/78a4f358-9cea-493a-8d91-5d5c0e35f7bc.png`,
+	grid2: `${photoUrls}/05f9ad4d-7cc5-4107-a466-55e338e19e04.png`,
+	grid3: `${photoUrls}/94dddf3b-4a47-4423-a944-4b0e752c24fb.png`,
+	grid4: `${photoUrls}/44598a77-9c39-4553-a46b-e1727c444496.png`,
+	grid5: `${photoUrls}/139b1704-4c5f-4b02-812d-6d814acbf046.png`,
+	grid6: `${photoUrls}/6011bba4-2e09-4c7e-a8a0-f59cfd1d1327.png`,
+	grid7: `${photoUrls}/800e2146-1b59-4a31-be0e-91af53c0df40.png`,
+	jxce_0: `${photoUrls}/0919fb97-35db-4d60-b59c-b74f6a844dbe.png`,
+	jxce_1: `${photoUrls}/9f67494c-6b8a-4d1a-a989-7fd43cb54879.png`,
+	jxce_2: `${photoUrls}/2a10107d-ba63-4e8d-a716-115bd13ce4d6.png`,
+	rd_icon0: `${photoUrls}/7d1aeaab-04ed-4cad-a31e-904ffebbbc5f.png`,
+	arrow_left_bold: `${photoUrls}/854656c9-aae5-4a16-b649-bc7d8d366c91.png`,
+	search_no_data: `${photoUrls}/45e4ffdf-050b-44eb-bc9b-14e53caaf269.png`,
+	wx_login: `${photoUrls}/91cda0bc-3815-4a7d-aadd-729b1d7be209.gif`,
+	pro_bg: `${photoUrls}/27ef0183-c0c0-4a57-882b-4b9b5410c657.png`,
+	authCode: `${photoUrls}/7c036846-613d-4a3d-8b05-93a5c2740ec5.png`,
+	phoneNum: `${photoUrls}/0d8b1f6c-3d7e-48ca-9004-c8a4da2af05c.png`,
+	phoneNumLogin: `${photoUrls}/5b4c46b5-4ff3-4104-b546-62098f9748b6.png`,
+	wxAuth: `${photoUrls}/f38b6dd2-9ea2-4dc5-b76d-a8c7ad4a928c.jpg`,
+	checked_user: `${photoUrls}/4b596ecd-8904-4987-9a17-f7d49d404b40.png`,
+	checked_: `${photoUrls}/fcbb6dc0-5322-451e-8710-15787d75170d.png`,
+	pay1: `${photoUrls}/4c49a431-0112-4e31-a194-3f63b426c086.png`,
+	pay2: `${photoUrls}/ec536f8e-850e-455a-baf0-f426f80c5043.png`,
+	pay3: `${photoUrls}/126fe712-bef6-4dc7-bacb-e775ed9a1156.png`,
+	bao1: `${photoUrls}/6115955f-f683-4dbc-aa89-939be7c1341e.png`,
+	bao2: `${photoUrls}/74ee16e9-2329-467a-8684-b98947540d60.png`,
+	bao3: `${photoUrls}/2254d562-fc5a-4128-a5b1-c1a8a2bb6f72.png`,
+   // 认知任务
+   whiteFlagNew:`${photoUrls}/7c592ff2-2b7f-483a-92d4-0f3503c40a7d.png`,
+	p_bg:`${photoUrls}/b9364af7-7ce0-4439-881c-909b5d7399b9.png`,
+	rightPng:`${photoUrls}/106e4d4e-a2ca-4a8d-833e-182ff74e3d19.png`,
+	leftPng:`${photoUrls}/4835be0e-fb38-4bfd-b0ad-ec2dfffca9e2.png`,
+	taskReport_bg:`${photoUrls}/a18bb422-f7ea-47c8-a766-46f928111c06.png`,
+	jianyi_icon:`${photoUrls}/c1b9f5a7-bdba-4ef3-be41-c386ce1ed739.png`,
+	pinggu_icon:`${photoUrls}/43a05b8f-9317-4958-9c87-af169b95ade8.png`,
+	rememberAbilityTask:`${photoUrls}/eee7e41b-f96e-4538-a8a3-7c43dd548bf8.png`,
+	ruiWenTask:`${photoUrls}/a8abf29e-a0ed-4e65-aba0-8f79d4bced83.png`,
+	add_bg:`${photoUrls}/f4c721e7-6fd6-45e9-b0b4-9580d8907a0d.png`,
+	add_mid:`${photoUrls}/a55a043f-788e-4b99-a2bd-88982d5d18a4.png`,
+	 
+	 
+	
+	  
+	 
+	     
+		 
+		 
+		
+	  
+	toBeginTesting:[
+		  {
+		    urlsTest:  `${photoUrls}/2b481202-ee2c-4fdb-a20c-e3f1ee486f87.png`
+	      },
+		]
+}

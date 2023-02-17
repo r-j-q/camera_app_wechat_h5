@@ -1,0 +1,1 @@
+<block wx:if="{{indicator.length>0}}"><view class="container"><echarts class="container100 vue-ref" vue-id="71bc2814-1" option="{{option}}" canvasId="echartsT" data-ref="echarts" bind:__l="__l"></echarts></view></block>

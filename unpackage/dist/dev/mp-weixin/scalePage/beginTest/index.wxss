@@ -1,0 +1,41 @@
+
+.begin_test_content_title.data-v-51f415ea {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 0;
+	text-align: center;
+}
+.begin_test_content_h.data-v-51f415ea {
+	width: 80%;
+	margin: 0 auto;
+	height: 100rpx;
+}
+.test_style.data-v-51f415ea {
+	width: 750rpx;
+
+	height: 600rpx;
+
+
+
+
+	z-index: -1;
+}
+.test_style_.data-v-51f415ea {
+	width: 100%;
+	height: 100%;
+}
+.begin_test_content.data-v-51f415ea {
+	height: 70%;
+	width: 750rpx;
+}
+.btn_center.data-v-51f415ea {
+	width: 700rpx;
+	margin: 0 auto
+}
+.w_h_15.data-v-51f415ea {
+	width: 15px;
+	height: 15px;
+	display: block;
+	margin-right: 10rpx;
+}
+

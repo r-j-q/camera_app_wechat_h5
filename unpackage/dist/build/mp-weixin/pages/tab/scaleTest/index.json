@@ -1,0 +1,19 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "量表",
+  "align": "center",
+  "onReachBottomDistance": 200,
+  "usingComponents": {
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "swiper": "/pages/tab/scaleTest/components/swiper",
+    "grid": "/pages/tab/scaleTest/components/grid",
+    "text-grf": "/components/textFile/textGrf",
+    "featured-test-list": "/pages/tab/scaleTest/components/featuredTestList",
+    "left-featured-test-list": "/pages/tab/scaleTest/components/leftFeaturedTestList",
+    "search-header-h": "/components/searchHeader/indexH",
+    "search-header-h5": "/pages/tab/scaleTest/components/header",
+    "add-tip": "/components/struggler-uniapp-add-tip/struggler-uniapp-add-tip"
+  }
+}

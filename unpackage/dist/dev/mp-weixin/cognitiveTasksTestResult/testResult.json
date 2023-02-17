@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "认知任务",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
+  }
+}

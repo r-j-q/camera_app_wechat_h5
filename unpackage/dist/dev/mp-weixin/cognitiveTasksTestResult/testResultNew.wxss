@@ -1,0 +1,210 @@
+
+.report-warp.data-v-3b956013 {
+		width: 100%;
+}
+.btnArea.data-v-3b956013 {
+		width: 60%;
+		margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+
+		align-items: center;
+		padding-bottom: 100rpx;
+}
+.report-title.data-v-3b956013 {
+		width: 100%;
+		height: 80px;
+		text-align: center;
+		line-height: 80px;
+		font-size: 18px;
+		font-family: PingFang SC;
+		font-weight: 500;
+		color: #FFFFFF;
+		margin-top: 140rpx;
+		/* background: url("../../assets/congnitiveAblitity/taskReport_bg.png") no-repeat center; */
+		background-size: cover;
+}
+.report-main.data-v-3b956013 {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 10px;
+}
+.report-user.data-v-3b956013 {
+		width: 100%;
+		height: 45px;
+		border-left: 2px solid #247E8D;
+		box-sizing: border-box;
+		padding-left: 5px;
+		color: #247E8D;
+}
+.report-name.data-v-3b956013 {
+		font-size: 18px;
+		font-family: PingFang SC;
+		font-weight: 500;
+		color: #247E8D;
+}
+.report-time.data-v-3b956013 {
+		font-size: 14px;
+		font-family: PingFang SC;
+		color: #247E8D;
+}
+.report-tip.data-v-3b956013 {
+		width: 100%;
+		margin-top: 20px;
+}
+.tip-title.data-v-3b956013 {
+		width: 100px;
+		height: 35px;
+		font-size: 14px;
+		font-family: PingFang SC;
+		font-weight: 500;
+		color: #308594;
+		line-height: 35px;
+		text-align: center;
+		background-image: linear-gradient(to right, #6fc1cf, #deeff4);
+		border-top-right-radius: 18px;
+		border-bottom-left-radius: 18px;
+}
+.tip-desc.data-v-3b956013 {
+		box-sizing: border-box;
+		font-size: 12px;
+		font-family: PingFang SC;
+		color: #666666;
+		line-height: 30px;
+		padding-left: 10px;
+}
+.tip-content.data-v-3b956013 {
+		box-sizing: border-box;
+		font-size: 12px;
+		font-family: PingFang SC;
+		color: #000;
+		line-height: 20px;
+		display: list-item;
+		list-style-type: disc;
+		margin-left: 25px;
+}
+.report-total-score-warp.data-v-3b956013 {
+		width: 100%;
+		/*height: 160px;*/
+		background: #F1F9FA;
+		box-sizing: border-box;
+		padding: 20px;
+		/*margin: 20px 0;*/
+		margin-top: 20px;
+}
+.total-score.data-v-3b956013 {
+		font-size: 16px;
+		font-family: PingFang SC;
+		/*font-weight: 500;*/
+		color: #247E8D;
+}
+.score.data-v-3b956013 {
+		font-size: 18px;
+		font-weight: 500;
+}
+.score-des.data-v-3b956013 {
+		font-size: 14px;
+		font-family: PingFang SC;
+		/*font-weight: 500;*/
+		color: #666666;
+}
+.score-warp.data-v-3b956013 {
+		width: 100%;
+		margin-top: 20px;
+}
+.score-title.data-v-3b956013,
+	.note-title.data-v-3b956013 {
+		width: 150px;
+		height: 35px;
+		font-size: 14px;
+		font-family: PingFang SC;
+		font-weight: 500;
+		color: #308594;
+		line-height: 35px;
+		text-align: center;
+}
+.score-title.data-v-3b956013 {
+		/* background: url("../../assets/congnitiveAblitity/pinggu_icon.png") no-repeat center; */
+		background-size: 100% 100%;
+}
+.note-title.data-v-3b956013 {
+		/* background: url("../../assets/congnitiveAblitity/jianyi_icon.png") no-repeat center; */
+		background-size: 100% 100%;
+}
+.radar-warp.data-v-3b956013,
+	.line-warp.data-v-3b956013 {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 20px 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+}
+.table-warp.data-v-3b956013 {
+		width: 100%;
+		box-sizing: border-box;
+		padding: 20px 10px 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+}
+.table-warp .score-table.data-v-3b956013 {
+		width: 100%;
+		background: #F4F4F4;
+		font-size: 16px;
+}
+.score-table ._tr.data-v-3b956013 {
+		height: 40px;
+		line-height: 40px;
+}
+.score-table ._th.data-v-3b956013,
+	.score-table ._td.data-v-3b956013 {
+		text-align: center;
+		width: 50%;
+}
+.score-table ._th.data-v-3b956013 {
+		background: #9DD9E3;
+		border: none;
+}
+.score-table.data-v-3b956013 {
+		border-right: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		border-left: none;
+		border-top: none;
+}
+.score-table ._td.data-v-3b956013 {
+		border-left: 1px solid #fff;
+		border-top: 1px solid #fff;
+}
+.score-interpretation-warp.data-v-3b956013 {
+		width: 100%;
+		margin-top: 20px;
+}
+.score-interpretation-title.data-v-3b956013 {
+		width: 90px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 14px;
+		font-family: PingFang SC;
+		font-weight: 500;
+		color: #262626;
+		border-top: 2px solid #5CB9C9;
+		/*box-sizing: border-box;*/
+		/*margin: 20px 0 0;*/
+}
+.score-interpretation-chart-warp.data-v-3b956013 {
+		margin-top: 5px;
+}
+.note-warp.data-v-3b956013 {
+		width: 100%;
+		padding-top: 20px;
+}
+.note-des.data-v-3b956013 {
+		font-size: 12px;
+		font-family: PingFang SC;
+		color: #262626;
+		line-height: 20px;
+		box-sizing: border-box;
+		padding: 10px 0 10px 25px;
+}
+

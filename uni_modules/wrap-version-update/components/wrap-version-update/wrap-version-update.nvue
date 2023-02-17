@@ -1,0 +1,352 @@
+<template>
+	<wrap-popup :show="show" direction="center" :mask-close="release.isForceUpdate">
+		<view class="view box-size">
+			<image :src="bgImage?bgImage:defaultBgImg" class="box-size absolute"></image>
+			<view class="view box-size-style absolute desc-style line-4">
+				<wrap-text :color="textColor" :text="release.description" :lines="lines"></wrap-text>
+			</view>
+			<view class="absolute footer-view-style" :style="{marginTop:`${release.isForceUpdate?540:520}rpx`}">
+				<wrap-button size="32" :disabled="!btnVisible" @click="onChangehandleUpdate" :color="btnTextColor"
+					:background="btnBgColor" width="400" radius="40" :text="btnText"></wrap-button>
+				<view v-if="!release.isForceUpdate && btnVisible" class="items-center" style="margin-top: 2rpx;">
+					<view style="padding: 2rpx 20rpx" @click="show=false">
+						<wrap-text :color="secondaryBtnTextColor" :text="secondaryBtnText"></wrap-text>
+					</view>
+				</view>
+				<view v-if="!btnVisible" style="margin-top: 10rpx;">
+					<progress :percent="percent" :color="btnBgColor"></progress>
+				</view>
+			</view>
+		</view>
+	</wrap-popup>
+</template>
+<script>
+	import {
+		getVersion,
+		checkUpdate,
+		restart,
+		downloadFile
+	} from '../../js/api.js'
+	import wrapButton from '../wrap-button/wrap-button'
+	import defaultBgImg from '../../js/img.js'
+	 
+	export default {
+		name: 'wrapVersionUpdate',
+		props: {
+			 
+			id: {
+				type: String,  
+				default: ''
+			}, 
+			apiUrl: {
+				type: String,
+				default: 'https://ed2bb32b-5553-4785-9bec-047aef8f37f3.bspapp.com/check'
+			},
+			loading: {
+				type: Boolean,
+				default: true
+			},
+			loadingText: {
+				type: String,
+				default: 'Updating'
+			},
+			loadingMask: {
+				type: Boolean,
+				default: true
+			},
+			loadingDelay: {
+				type: [String, Number],
+				default: 1500
+			},
+			lines: {
+				type: Number,
+				default: 4
+			},
+			version: {
+				type: String
+			},
+			bgImage: {
+				type: String
+			},
+			textColor: {
+				type: String,
+				default: '#1e1e1e'
+			},
+			btnBgColor: {
+				type: String,
+				default: '#0a84ec'
+			},
+			btnTextColor: {
+				type: String,
+				default: '#FFFFFF'
+			},
+			secondaryBtnText: {
+				type: String,
+				default: 'Talk Later'
+			},
+			secondaryBtnTextColor: {
+				type: String,
+				default: '#afafaf'
+			},
+			errToast: {
+				type: Boolean,
+				default: true
+			},
+			errTimes: {
+				type: Number,
+				default: 2
+			},
+			auto: {
+				type: Boolean,
+				default: true
+			}
+		},
+		components: {
+			wrapButton
+		},
+		data() {
+			return {
+				show: false,
+				release: {
+					"needUpdate": true,
+					"forceUpdate": true,
+					isForceUpdate: true,
+					"version": "0.1.0",
+					"description": "",
+					"pkgUrl": "",
+					"wgtUrl": ""
+				},
+				btnVisible: true,
+
+				btnText: 'Update Now',
+
+				percent: 0,
+				tempPath: '',
+				installFlag: false,
+
+				defaultBgImg: defaultBgImg,
+				nowVersion: '',
+
+				openCount: 0
+			}
+		},
+		computed: {
+			config: function() {
+				return {
+					id: this.id,
+					apiUrl: this.apiUrl,
+					loading: this.loading,
+					loadingText: this.loadingText,
+					loadingMask: this.loadingMask,
+					loadingDelay: this.loadingDelay
+				}
+			},
+			downUrl: function() {
+				if (!this.release.needUpdate) {
+					return undefined;
+				}
+				if (!this.release.isHbuildUpdate && this.release.wgtUrl !== '') {
+					return this.release.wgtUrl
+				}
+				return this.release.pkgUrl;
+			},
+			isHot: function() {
+				return !this.release.isHbuildUpdate && this.release.wgtUrl !== '';
+			}
+		},
+		created() {
+			if (!this.id) {
+				uni.showToast({
+					title: 'Please pass in the app id',
+					icon: 'none',
+					duration: 4000
+				})
+				// console.error('重要！必改！应用id必传，从WrapStore后台获取，后台地址：https://apps.seepine.com/')
+				return
+			}
+			if (this.auto) {
+				this.checkState()
+			}
+		},
+		methods: {
+			checkState() {
+				getVersion().then(version => {
+					this.nowVersion = version;
+					return checkUpdate(this.version ? this.version : version, this.config)
+				}).then(res => {
+					this.release = res;
+					this.$emit('check', res);
+					if (res.needUpdate) {
+						this.show = true;
+					} else {
+						if (res.isTest) {
+							uni.showToast({
+								title: 'Beta' + (this.version ? this.version : this.nowVersion),
+								icon: 'none',
+								position: 'bottom'
+							})
+						}
+						this.$emit('finish', res);
+					}
+				}).catch(err => {
+					this.$emit('error', err);
+					if (this.errToast) {
+						uni.showToast({
+							title: err,
+							icon: 'none',
+							duration: 4000
+						})
+					}
+				})
+			},
+			onChangehandleUpdate() {
+				// 如果是ios并且非热更新
+				// console.log(uni.getSystemInfoSync().platform)
+				if (uni.getSystemInfoSync().platform === 'ios' && !this.isHot) {
+					if (this.release.appleId) {
+						plus.runtime.launchApplication({
+							action: `itms-apps://itunes.apple.com/cn/app/id${this.release.appleId}?mt=8`
+						}, (e) => {
+							uni.showModal({
+								title: 'Jump to appStore failed',
+								content: "Please feedback to the app, error message：" + e.message,
+								confirmText: "copy error message",
+								success: (res) => {
+									if (res.confirm) {
+										uni.setClipboardData({
+											data: e.message,
+											success: () => {}
+										})
+									}
+								}
+							})
+						});
+					} else {
+						uni.showToast({
+							title: 'Unconfigured appleId cannot jump to appStore, please give feedback to app',
+							icon: 'none',
+							duration: 4000
+						})
+					}
+					return
+				}
+				if (this.tempPath !== '') {
+					this.onHandleOpenFile()
+					return;
+				}
+				if (this.btnVisible) {
+					this.btnVisible = false
+					downloadFile({
+						url: this.downUrl,
+						success: (filePath) => {
+							this.percent = 100
+							this.tempPath = filePath
+							this.btnText = 'Update Now'
+							this.onHandleOpenFile()
+						},
+						fail: () => {
+							this.btnVisible = true
+						},
+						progress: (progress) => {
+							this.percent = progress
+						}
+					})
+				}
+			},
+			onHandleOpenFile: function() {
+				this.btnVisible = true;
+				if (!this.installFlag) {
+					this.installFlag = true
+					uni.showToast({
+						icon: 'none',
+						title: this.isHot ? 'Installing' : 'Opening Installer'
+					})
+					if (this.isHot) {
+						//热更新
+						plus.runtime.install(this.tempPath, {
+							force: false
+						}, function() {
+							uni.hideToast();
+							setTimeout(() => {
+								plus.runtime.restart();
+							}, 100)
+						}, function(e) {
+							uni.hideToast();
+							this.onChangeInstallFail();
+						});
+					} else {
+						setTimeout(() => {
+							uni.openDocument({
+								filePath: this.tempPath,
+								fail: (res) => {
+									this.onChangeInstallFail();
+								},
+								complete: () => {
+									uni.hideToast();
+									this.installFlag = false;
+									this.openCount++;
+									if (this.openCount > this.errTimes) {
+										this.onChangeInstallFail();
+									}
+								}
+							});
+						}, 500)
+					}
+				}
+			},
+			onChangeInstallFail() {
+				uni.showModal({
+					title: "Reminder",
+					content: "Is there a situation where the installation package is damaged or the new version cannot be installed normally due to other reasons? Please go to the browser to download the latest version and install it manually",
+					confirmText: "Go Now",
+					success: (res) => {
+						if (res.confirm) {
+							plus.runtime.openURL(
+								`https://ed2bb32b-5553-4785-9bec-047aef8f37f3.bspapp.com/http/app?id=${this.id}`,
+								() => {
+									this.onChangeOpenUrlFail();
+								});
+						}
+					}
+				})
+			},
+			onChangeOpenUrlFail() {
+				uni.showModal({
+					content: "Failed to open the browser, please copy the download address, manually open the mobile browser and enter the address to download",
+					confirmText: "复制",
+					success: (res) => {
+						if (res.confirm) {
+							uni.setClipboardData({
+								data: `https://ed2bb32b-5553-4785-9bec-047aef8f37f3.bspapp.com/http/app?id=${this.id}`,
+								success: () => {}
+							})
+						}
+					}
+				})
+			}
+		}
+	}
+</script>
+<style scoped>
+	@import "../../css/index.scss";
+
+	.box-size-style {
+		width: 491rpx;
+		height: 653rpx;
+	}
+
+	.desc-style {
+		margin-top: 326rpx;
+		padding: 0 30rpx;
+		width: 431rpx;
+	}
+
+	.desc-text-style {
+		line-height: 44rpx;
+		font-size: 30rpx;
+	}
+
+	.footer-view-style {
+		margin-left: 50rpx;
+	}
+</style>

@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "u-sticky": "/node-modules/uview-ui/components/u-sticky/u-sticky",
+    "u-search": "/node-modules/uview-ui/components/u-search/u-search",
+    "v-tabs": "/components/v-tabs/v-tabs",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "camera-content": "/components/cameraContent/index"
+  }
+}

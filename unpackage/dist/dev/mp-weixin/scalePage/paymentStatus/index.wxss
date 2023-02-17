@@ -1,0 +1,18 @@
+
+.m_h.data-v-60db3067{
+	padding-top: 100px;
+}
+.m_t_i.data-v-60db3067{
+	display: flex;
+	width: 160rpx;
+	height: 160rpx;
+ 
+	margin: 0 auto;
+}
+.m_t.data-v-60db3067 {
+	width: 90%;
+
+	margin: 0 auto;
+	margin-top: 100px;
+}
+

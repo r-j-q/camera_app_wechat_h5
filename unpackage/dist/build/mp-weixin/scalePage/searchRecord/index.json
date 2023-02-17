@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "量表搜索",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "featured-test-list-over-search": "/scalePage/components/featuredTestListOverSearch",
+    "no-data": "/components/noData/index",
+    "search-header": "/components/searchHeader/index"
+  }
+}

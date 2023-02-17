@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationBarTitleText": "",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "comp-input": "/components/compInput/index",
+    "code-time": "/components/timeTag/codeTime"
+  }
+}

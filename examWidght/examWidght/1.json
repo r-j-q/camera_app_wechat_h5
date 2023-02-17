@@ -1,0 +1,62 @@
+{
+	"questionID": "655180e7-c06a-42ca-a043-6ead0dc41b2f",
+	"fldName": "下列哪种灭火器不可用于电器类火灾()。",
+	"fldAnswer": null,
+	"questionType": 0,
+	"QuestionOptionList": [{
+			"fldOptionText": "干粉灭火器",
+			"fldOptionIndex": 1
+		},
+		{
+			"fldOptionText": "二氧化碳灭火器",
+			"fldOptionIndex": 2
+		},
+		{
+			"fldOptionText": "泡沫灭火器",
+			"fldOptionIndex": 3
+		},
+		{
+			"fldOptionText": "泡灭火器",
+			"fldOptionIndex": 4
+		}
+	]
+},
+answer: "你常感到与周围人的关系和谐吗?"
+checkItems: "从不 ；很少；有时；一直"
+flag: "20210617000232"
+id: "2c91f37d7a135392017a158f550b0078"
+questionNo: "1"
+questionType: "0"
+score: ""
+scoreDirection: "0"
+serialNo: "1"
+weight: ""
+
+
+// 回答的数据
+
+answer: "你常感到与周围人的关系和谐吗?"
+checkItems: "从不 "
+flag: "20210617000232"
+id: "2c91f37d7a135392017a158f550b0078"
+questionNo: "1"
+questionType: "0"
+score: ""
+scoreDirection: "0"
+serialNo: "1"
+weight: ""
+
+
+QuestionOptionList: (5) [{…}, {…}, {…}, {…}, {…}, __ob__: Observer]
+answer: (...)
+checkItems: (...)
+flag: (...)
+fldAnswer: "极重"
+id: (...)
+questionID: "2c91f37d7a135392017a158e850b0076"
+questionNo: (...)
+questionType: (...)
+score: (...)
+scoreDirection: (...)
+serialNo: (...)
+weight: (...)
